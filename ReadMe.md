@@ -6,8 +6,10 @@ This is where I am learning Angular JS. I'll write notes and things I want to re
 `sudo npm install -g @angular/cli`<br />
 To build angular app within the folder of choice:<br />
 `ng new name-of-app --no-strict`<br />
+When asked if you want to add Angular routing, choose YES! <br />
 Then, cd into your app folder. From there, start the server with:<br />
 `ng serve`<br />
+Afterwards, you'll be asked if you want to share data with google... NO <br />
 This will start the server and a boilerplate html doc can be seen at localhost:4200<br /> <br />
 To use Bootstrap through npm, type (locally, not globally): <br />
 `npm install --save bootstrap@3` <br />
