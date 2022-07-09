@@ -1,6 +1,12 @@
 # Learning Web Dev : ANGULAR
 
-# 2022 02 08 | START
+## 2022 02 09 | Day 2
+
+A lot completed? Not really. However, I have been learning a ton. A lot of stuff will need to be reviewed later. That is why I've committed a lot on git. This lets me time travel through several lessons when I need.
+
+---
+
+## 2022 02 08 | START
 
 This is where I am learning Angular JS. I'll write notes and things I want to remember within this Readme. The course I'm working through is through Udemy called: Angular - The Complete Guide (2022 Edition) by Maximilian Schwarzmuller. First item to remember is: Installing Angular CLI by typing in the terminal: <br />
 `sudo npm install -g @angular/cli`<br />
