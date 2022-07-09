@@ -15,4 +15,9 @@ To use Bootstrap through npm, type (locally, not globally): <br />
 `npm install --save bootstrap@3` <br />
 Then, within the angular.json file, you need to "styles" array (within the architect build obj). Within this, you will point to "node_modules/bootstrap/dist/css/bootstrap.min.css" !
 
+### 1015 | Neat CLI
+
+First I want to hate CLI stuff, until it does some incredibly cool stuff. You can use `ng generate component name-of-component` to give you a folder with ALL the files you need for that component! You do need to be inside the app folder for this to work. BTW, that can be shorted to: <br />
+`ng g c name-of-component`
+
 ---
