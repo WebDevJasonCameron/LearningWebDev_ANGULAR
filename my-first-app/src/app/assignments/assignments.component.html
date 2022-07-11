@@ -9,12 +9,25 @@
 </ol>
 <hr>
 
+<!-- <button 
+  class="btn btn-primary" 
+  style="margin: 20px 0;"
+  (click)="paragraphShow = !paragraphShow">
+    Display Details
+</button> -->
+
 <button 
   class="btn btn-primary" 
   style="margin: 20px 0;"
-  (click)="toggle()">
+  (click)="onToggleDetails()">
     Display Details
 </button>
 
 <p *ngIf="paragraphShow">{{paragraph}}</p>
-<app-assignments *ngFor="let countItem of countList"></app-assignments> 
+<div 
+  *ngFor="let item of log"
+  [ngStyle]="{backgroundColor: item >= 5 ? 'blue' : 'transparent'}"
+  [ngClass]="{'white-text': item >= 5}">
+    {{ item }}
+</div>
+

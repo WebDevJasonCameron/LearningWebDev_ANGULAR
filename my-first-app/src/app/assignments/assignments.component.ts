@@ -14,8 +14,7 @@ export class AssignmentsComponent implements OnInit {
   // ATT
   paragraph = 'Secret Password = tuna';
   paragraphShow = false;
-  count = 0;
-  countList = [];
+  log = [];
 
   // CON
   constructor() { }
@@ -25,16 +24,21 @@ export class AssignmentsComponent implements OnInit {
   }
 
   // FUN
-  toggle(){
-    if(this.paragraphShow === true) {
-      this.paragraphShow = false;
-    }
-    else {
-      this.paragraphShow = true;
-    }
-    this.count ++;
-    this.countList.push(this.count);
-    console.log(this.countList.length);
-  } 
+  // toggle(){
+  //   if(this.paragraphShow === true) {
+  //     this.paragraphShow = false;
+  //   }
+  //   else {
+  //     this.paragraphShow = true;
+  //   }
+  //   this.count ++;
+  //   this.countList.push(this.count);
+  //   console.log(this.countList.length);
+  // } 
+
+  onToggleDetails(){
+    this.paragraphShow = !this.paragraphShow;
+    this.log.push(this.log.length + 1)
+  }
   
 }
