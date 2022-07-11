@@ -5,7 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.css']
 })
+
 export class ServersComponent implements OnInit {
+
+  // ATT
   allowNewServer = false;
   serverCreationStatus = 'No server was created';
   serverName = 'TestServer';
@@ -15,6 +18,7 @@ export class ServersComponent implements OnInit {
     'testServer2'
   ];
 
+  // CON
   constructor() { 
     setTimeout(() => {
       this.allowNewServer = true;
@@ -22,9 +26,12 @@ export class ServersComponent implements OnInit {
     2000);
   }
 
+  // BASE
   ngOnInit(): void {
   }
 
+
+  // FUN
   onCreateServer(){
     this.serverCreated = true;
     this.servers.push(this.serverName);

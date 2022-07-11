@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { MytestComponent } from './mytest/mytest.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { AssignmentsComponent } from './assignments/assignments.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
     ServersComponent,
     MytestComponent,
     SuccessAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    AssignmentsComponent
   ],
   imports: [
     BrowserModule,
