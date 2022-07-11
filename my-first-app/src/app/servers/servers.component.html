@@ -1,38 +1,10 @@
 <label>Server Name</label>
 
-<p>One Way Binding</p>
-<input 
-  type="text" 
-  class="form-control"
-(input)="onUpdateServerName($event)">   <!--One Way-->
-
-<p class="p-4">Two Way Binding</p>
 <input 
   type="text" 
   class="form-control"
   [(ngModel)]="serverName">             <!--Two Way-->
 
-
-<p>{{ serverName }}</p>
-
-<hr>                                    <!--Assignment-->
-
-<label>User Name</label>
-<input 
-  type="text"
-  class="form-control"
-  [(ngModel)]="userName">
-
-  <p>{{ userName }}</p>
-
-  <button 
-    class="btn btn-secondary"
-    [disabled]="userName === '' " 
-    (click)="userName = '' ">
-      Reset User
-    </button>
-
-    <hr>                                    <!--Other-->
 
 <button 
   class="btn btn-primary" 
@@ -41,9 +13,6 @@
     Add Server
 </button>
 
-<p>{{ allowNewServer }}</p>           
-
-<p>{{ serverCreationStatus }}</p>
-
+<p *ngIf="serverCreated" >Server was created, server name is {{ serverName }} </p>
 <app-server></app-server>
 <app-server></app-server>
