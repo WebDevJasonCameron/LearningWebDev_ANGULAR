@@ -21,16 +21,15 @@
 <input 
   type="text"
   class="form-control"
-  [(ngModel)]="userName"
-  (input)="onUserNameCheck($event)"
-  (click)="onResetUserName()">
+  [(ngModel)]="userName">
 
   <p>{{ userName }}</p>
 
   <button 
     class="btn btn-secondary"
-    [disabled]="emptyUserName">
-      Add User
+    [disabled]="userName === '' " 
+    (click)="userName = '' ">
+      Reset User
     </button>
 
     <hr>                                    <!--Other-->
