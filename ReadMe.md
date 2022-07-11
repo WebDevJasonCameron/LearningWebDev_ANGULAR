@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 07 11 | Lesson Project
+
+Looks like we are creating shopping cart and recipe app. For this app, we are going to need to structure the application to decide how components will need to be built. Here are the features: Shopping List and Recipe Book. For this, we will need a root component. Afterwards, we need a header component above these. Individual features for the shopping list include: shopping list, CRUD (create, add, edit, delete). The recipe book should also have a list, items, and details. For our models, we will need ingredient and recipe. Finally, all this stuff will be put into a new app (so, close out everything and rebuild)
+
 ## 2022 07 10 | Components
 
 There is a lot in this day's lessons. ngIf, ngFor and so many other things I want to remember. I am saving through git each time I run through a lesson. After each lesson that doesn't build off the other, I need to delete code because it gets really crazy. As such, I feel like I can time-travel through the lesson's code using git to check that specific iteration. I'm not really sure if this will help in the future. What I do know, is I need to use everything I'm learning in a project for this to really sink in. Again, there is a ton of stuff here. It actually makes a lot of since to someone who learned to use JS, Java, and expression languages. Even the limited REACT lessons really fit into what I've been learning.
