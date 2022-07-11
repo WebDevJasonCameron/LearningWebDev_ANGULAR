@@ -1,5 +1,5 @@
 // Assignment 03
-/** */
+/** 
 import { Component, OnInit } from '@angular/core';
 
 @Component({ 
@@ -38,7 +38,8 @@ export class AssignmentsComponent implements OnInit {
 
   onToggleDetails(){
     this.paragraphShow = !this.paragraphShow;
-    this.log.push(this.log.length + 1)
+    this.log.push(new Date())
   }
   
 }
+*/

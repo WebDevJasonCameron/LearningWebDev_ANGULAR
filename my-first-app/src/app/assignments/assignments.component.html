@@ -1,4 +1,4 @@
-<!-- Assignment 003 -->
+<!-- Assignment 003 
 
 <ol class="list-group" style="margin: 20px;">
   <li>Add button which say's 'display details'</li>
@@ -9,12 +9,6 @@
 </ol>
 <hr>
 
-<!-- <button 
-  class="btn btn-primary" 
-  style="margin: 20px 0;"
-  (click)="paragraphShow = !paragraphShow">
-    Display Details
-</button> -->
 
 <button 
   class="btn btn-primary" 
@@ -25,9 +19,10 @@
 
 <p *ngIf="paragraphShow">{{paragraph}}</p>
 <div 
-  *ngFor="let item of log"
-  [ngStyle]="{backgroundColor: item >= 5 ? 'blue' : 'transparent'}"
-  [ngClass]="{'white-text': item >= 5}">
+  *ngFor="let item of log; let i = index"
+  [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'transparent'}"
+  [ngClass]="{'white-text': i >= 4}">
     {{ item }}
 </div>
 
+-->
