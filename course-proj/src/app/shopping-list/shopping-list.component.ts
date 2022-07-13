@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingListComponent implements OnInit {
 
+  // ATT
+  ingredient = [];
+
+  // CON
   constructor() { }
 
+  // BAS
   ngOnInit(): void {
   }
+
+  // FUN
 
 }

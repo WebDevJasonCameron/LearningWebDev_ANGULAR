@@ -1,5 +1,17 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 07 13 | Constructor
+
+Found out about a shortcut in creating a model (and all it's constructors stuff):<br />
+
+```
+export class Ingredient {
+
+  constructor(public name: string, public amount: number){}
+
+}
+```
+
 ## 2022 07 11 | Lesson Project
 
 Looks like we are creating shopping cart and recipe app. For this app, we are going to need to structure the application to decide how components will need to be built. Here are the features: Shopping List and Recipe Book. For this, we will need a root component. Afterwards, we need a header component above these. Individual features for the shopping list include: shopping list, CRUD (create, add, edit, delete). The recipe book should also have a list, items, and details. For our models, we will need ingredient and recipe. Finally, all this stuff will be put into a new app (so, close out everything and rebuild)
