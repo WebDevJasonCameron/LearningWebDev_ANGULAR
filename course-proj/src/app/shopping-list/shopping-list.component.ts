@@ -9,7 +9,7 @@ import { Ingredient } from '../shared/ingredient.model';
 export class ShoppingListComponent implements OnInit {
 
   // ATT
-  ingredients: Ingredient[] = [
+  ingredients: Ingredient[] = [           //   Note this
     new Ingredient('Apples', 5),
     new Ingredient('Tomatoes', 10)
   ];
