@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ServerElementComponent implements OnInit {
 
   // ATT
-  @Input()
+  @Input('srvElement')     // able to be bound to parent (with a alias)
   element: {type: string, name: string, content: string};
 
   // CON
