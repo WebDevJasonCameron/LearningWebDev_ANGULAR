@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 07 14 | No Test
+
+So the instructor says to use `ng g c new-app-name --spec false`. This actually does not work any more. The new way of CLI a new component is with `ng gc new-app-name --skip-tests=true`
+
 ## 2022 07 13 | Constructor
 
 Found out about a shortcut in creating a model (and all it's constructors stuff):<br />
