@@ -16,7 +16,6 @@ export class AppComponent {
   // BAS
 
   // FUN
-
   onServerAdded(serverData: 
       {serverName: string, serverContent: string}){
     this.serverElements.push({
