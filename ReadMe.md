@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 07 16 | Task Tracker
+
+Started another quick two hour tutorial by Brad Traversy. This is from his free crash course on Angular. The app we are building is a simple front end task tracker. While this course doesn't go into great depth, he does explain some things that the full Angular course has yet to teach. Sometimes that matters. You can go through a lesson with questions that you have, but there is no one to ask. You spend a lot of time researching those questions online or waiting till the end to see if the information is covered.
+
 ## 2022 07 14 | No Test
 
 So the instructor says to use `ng g c new-app-name --spec false`. This actually does not work any more. The new way of CLI a new component is with `ng gc new-app-name --skip-tests=true`
