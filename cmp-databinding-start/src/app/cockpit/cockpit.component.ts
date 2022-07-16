@@ -18,7 +18,7 @@ export class CockpitComponent implements OnInit {
   // CON
   constructor() { }
 
-  // BAS
+  // LIF
   ngOnInit(): void {
   }
 
