@@ -18,7 +18,7 @@ To install, You'll need to use the CLI:
 npm i json-server
 ```
 
-Afterwards, go to package.json to update the new package. Within this file, you'll need to add a new script (within the "scripts" portion): `"server": "json-server --watch db.json --port 5000"`. Also note that `--port 5000` changed the running port from what ever was default (3000) to 5000. Next you need to create the db.json file within the root... Once you have a JSON file with all the data, you can run the server using `npm run server` (or however you named it previously).
+Afterwards, go to package.json to update the new package. Within this file, you'll need to add a new script (within the "scripts" portion): `"server": "json-server --watch db.json --port 5000"`. Also note that `--port 5000` changed the running port from what ever was default (3000) to 5000. Also NOTE: I had to change that to `5003` since the port was being used. Next you need to create the db.json file within the root... Once you have a JSON file with all the data, you can run the server using `npm run server` (or however you named it previously).
 
 ### 2240 | JSON Server
 
