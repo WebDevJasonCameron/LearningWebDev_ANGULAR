@@ -10,6 +10,22 @@ Found a great ng addition that allows us to have font awesome icons within the a
 
 https://github.com/FortAwesome/angular-fontawesome
 
+#### NOTE:
+
+To install, You'll need to use the CLI:
+
+```
+npm i json-server
+```
+
+Afterwards, go to package.json to update the new package. Within this file, you'll need to add a new script (within the "scripts" portion): `"server": "json-server --watch db.json --port 5000"`. Also note that `--port 5000` changed the running port from what ever was default (3000) to 5000. Next you need to create the db.json file within the root... Once you have a JSON file with all the data, you can run the server using `npm run server` (or however you named it previously).
+
+### 2240 | JSON Server
+
+To finagle the backend portion of the task tracker application, we are going to use the JSON Server NPM. Here is the link:
+
+https://www.npmjs.com/package/json-server
+
 ## 2022 07 14 | No Test
 
 So the instructor says to use `ng g c new-app-name --spec false`. This actually does not work any more. The new way of CLI a new component is with `ng gc new-app-name --skip-tests=true`
