@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-button',
@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ButtonComponent implements OnInit {
 
   // ATT
+  @Input() 
+    text: string;
+  @Input() 
+    color: string;
+  @Output() btnClick = new EventEmitter();
 
   // CON
   constructor() { }
@@ -17,5 +22,8 @@ export class ButtonComponent implements OnInit {
   }
 
   // FUN
+  onClick(){
+    this.btnClick.emit();
+  }
 
 }  //<--END
