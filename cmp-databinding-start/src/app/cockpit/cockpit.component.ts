@@ -16,7 +16,8 @@ export class CockpitComponent implements OnInit {
   @ViewChild('serverContentInput', {static: true}) serverContentInput: ElementRef;
   
   // CON
-  constructor() { }
+  constructor() {
+  }
 
   // LIF
   ngOnInit(): void {

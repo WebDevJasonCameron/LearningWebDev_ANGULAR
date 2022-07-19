@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 07 19 | Back to Main Tut
+
+Learned a lot in Brad's tut. I can access a fictional API. I can build one page application that swaps data between components. However, things I need to learn (off the top of my head) => Accessing JSON data and parsing inside Angular. I started a Pokemon app and quickly noted that that is an immediate area of concern. Actually, I think I will be doing a couple of other tutorials on building an Pokemon app within this monoRepo. First, lets get back to the Main Tut.
+
 ## 2022 07 17 | Services and Subjects
 
 Interesting article http://ncjamieson.com/understanding-subjects . Should read this after Tut. Also, there is a CLI command that auto generates services. This command is:

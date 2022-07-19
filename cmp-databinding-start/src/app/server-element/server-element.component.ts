@@ -8,7 +8,6 @@ import {
   OnChanges, 
   OnDestroy, 
   OnInit, 
-  SimpleChange, 
   SimpleChanges, 
   ViewEncapsulation 
 } from '@angular/core';
@@ -26,11 +25,14 @@ export class ServerElementComponent implements OnInit,
         AfterContentChecked, 
         AfterViewInit,
         AfterContentChecked, 
-        OnDestroy{
+        OnDestroy {
 
   // ATT
   @Input('srvElement')     // able to be bound to parent (with a alias)
-  element: {type: string, name: string, content: string};
+    element: {type: string, name: string, content: string};
+  @Input()
+    name: string;
+
 
   // CON
   constructor() {

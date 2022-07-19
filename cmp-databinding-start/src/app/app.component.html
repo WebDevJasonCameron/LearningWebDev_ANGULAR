@@ -5,10 +5,26 @@
   </app-cockpit>
   <div class="row">
     <div class="col-xs-12">
+      
+      <!--BTNs-->
+      <button
+      (click)="onChangeFirstComponent()"
+      class="btn btn-primary"
+      style="margin: 10px 10px 10px 0 ;">
+        Edit First Component
+    </button>
+    <button
+      (click)="onDestroyFirstComponent()"
+      class="btn btn-danger"
+      style="margin: 10px 0 ;">
+        Destroy First Component
+    </button>
+
 
       <app-server-element  
         *ngFor="let serverElement of serverElements"
-        [srvElement]="serverElement">
+        [srvElement]="serverElement"
+        [name]="serverElement.name">
 
         <p>
           <strong *ngIf="serverElement.type === 'server'" style="color: red">{{ serverElement.content }}</strong>
