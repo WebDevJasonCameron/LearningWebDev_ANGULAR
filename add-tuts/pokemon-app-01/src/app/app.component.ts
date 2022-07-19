@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  // ATT
   title = 'pokemon-app-01';
-}
+
+
+  // FUN
+
+
+
+
+
+
+
+} //<--END
