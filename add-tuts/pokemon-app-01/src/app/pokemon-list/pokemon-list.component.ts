@@ -9,7 +9,7 @@ import { DataService } from '../services/data.service';
 export class PokemonListComponent implements OnInit {
 
   // ATT
-
+  pokemons: any[] = [];
 
   // CON
   constructor(
@@ -20,7 +20,14 @@ export class PokemonListComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.getPokemons().subscribe(
       (response: any) => {
-        console.log(response);
+        // console.log(response);
+        response.results.forEach((result: any) => {
+          this.dataService.getMoreData(result.name)
+            .subscribe((uniqResponse: any) => {
+              this.pokemons.push(uniqResponse);
+              console.log(this.pokemons);
+            })
+        });
       }
     )
   };
