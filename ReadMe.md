@@ -8,6 +8,10 @@ Interesting article http://ncjamieson.com/understanding-subjects . Should read t
 ng generate service folder/name-of-service
 ```
 
+### 2135 | Setting Up Router
+
+When you create a Angular app through the CLI, you will be asked if you want to set up the router. I always say yes. However, you can do this manually. To do this, you would want to go into the app.module.ts file and import the "RouterModule".
+
 ## 2022 07 16 | Task Tracker
 
 Started another quick two hour tutorial by Brad Traversy. This is from his free crash course on Angular. The app we are building is a simple front end task tracker. While this course doesn't go into great depth, he does explain some things that the full Angular course has yet to teach. Sometimes that matters. You can go through a lesson with questions that you have, but there is no one to ask. You spend a lot of time researching those questions online or waiting till the end to see if the information is covered.
