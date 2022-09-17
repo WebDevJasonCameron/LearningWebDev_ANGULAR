@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 09 17 | Back to Angular
+
+Yes, it has been a while since I worked on Angular. I got a job! With that, the focus has been on Python, Airflow, BASH, Nano and VIM, and so many other things. I'm back now (now mainly on my weekends) to finish this course. My objective is to build a personal website using the MEAN stack. Why this when I'm overwhelmed with actual work? Mainly it's because I hate leaving a course unfinished. Secondly, I miss working primarily in the web environment. It also is important to keep my skills generally fresh and diverse. You never know if this job will pan out in the end.
+
 ## 2022 07 19 | Back to Main Tut
 
 Learned a lot in Brad's tut. I can access a fictional API. I can build one page application that swaps data between components. However, things I need to learn (off the top of my head) => Accessing JSON data and parsing inside Angular. I started a Pokemon app and quickly noted that that is an immediate area of concern. Actually, I think I will be doing a couple of other tutorials on building an Pokemon app within this monoRepo. First, lets get back to the Main Tut.
