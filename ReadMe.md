@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 10 25 | Again
+
+Building my other repo "my 80's bard" using MEAN stack. As such, I noticed I haven't completed (I'm at 12%) this course. It's probably because I leave and try to figure out something related to work. I can do that at work. This is my fun time!
+
 ## 2022 09 17 | Back to Angular
 
 Yes, it has been a while since I worked on Angular. I got a job! With that, the focus has been on Python, Airflow, BASH, Nano and VIM, and so many other things. I'm back now (now mainly on my weekends) to finish this course. My objective is to build a personal website using the MEAN stack. Why this when I'm overwhelmed with actual work? Mainly it's because I hate leaving a course unfinished. Secondly, I miss working primarily in the web environment. It also is important to keep my skills generally fresh and diverse. You never know if this job will pan out in the end.
