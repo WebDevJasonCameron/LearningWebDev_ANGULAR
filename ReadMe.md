@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 10 28 | Rem the Boot
+
+Referencing "2022 07 08 | START", there are instructions on how to include bootstrap into an angular project. What I forgot to mention is "You MUST turn the server off and on again in order for the files to be built into the project. Otherwise, you do everything and wonder why it isn't working. So, let's remember that for next time!
+
 ## 2022 10 25 | Again
 
 Building my other repo "my 80's bard" using MEAN stack. As such, I noticed I haven't completed (I'm at 12%) this course. It's probably because I leave and try to figure out something related to work. I can do that at work. This is my fun time!
