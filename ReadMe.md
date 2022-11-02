@@ -1,5 +1,9 @@
 # Learning Web Dev : ANGULAR
 
+## 2022 11 01 | Real Work
+
+Completed the assignment 05. There was a lot here that I needed to review from past ex. In the end, this assignment helped me remember how Ang likes to compartmentalize everything. It also showed me how to send data from one component to another. This will be very useful to ref.
+
 ## 2022 10 31 | Halloween
 
 To recap what I did yesterday... I tried to follow the instructions. I think I missed something cause it did not work as planned. It's been some time so I'm not sure how these peaces are working together.
