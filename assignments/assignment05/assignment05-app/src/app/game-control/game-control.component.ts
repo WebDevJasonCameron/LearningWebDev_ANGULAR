@@ -5,6 +5,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   templateUrl: './game-control.component.html',
   styleUrls: ['./game-control.component.css']
 })
+
 export class GameControlComponent implements OnInit {
 
   // VARS
@@ -26,4 +27,8 @@ export class GameControlComponent implements OnInit {
     }, 1000)
   }
 
-}
+  onPauseGame(){
+    clearInterval(this.interval);
+  }
+
+}  // <-- END
