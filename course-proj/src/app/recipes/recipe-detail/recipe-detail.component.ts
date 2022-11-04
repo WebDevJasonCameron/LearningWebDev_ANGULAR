@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipeDetailComponent implements OnInit {
 
+  // VAR
+
+  // CON
   constructor() { }
 
+  // BAS
   ngOnInit(): void {
   }
+  
+  // FUN
 
-}
+
+  
+} //<-END
